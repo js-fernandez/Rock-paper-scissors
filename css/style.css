@@ -1,0 +1,94 @@
+body {
+    background-color: darkblue;
+}
+
+.selected {
+    background-color: blue;
+}
+
+.contadores {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contadores > div {
+    height: 50px;
+    font-size: 2em;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contadores > div:nth-child(3) {
+    margin-top: 20px;
+    border: 1px solid red;
+    height: 0.1px;
+    width: 80%;
+}
+
+
+
+.contenedor {
+    width: 500px;
+    margin: auto;
+    border: 5px solid red;
+    background-color: rgb(229, 224, 224);
+    border-radius: 80px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button {
+    margin-bottom: 30px;
+    height: 50px;
+    border-radius: 5px;
+    width: 150px;
+    font-weight: bold;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+.decision {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.decision > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1.3em;
+}
+
+.decision > div > div:nth-child(2) {
+    visibility: hidden;
+}
+
+#result {
+    font-size: 2em;
+}
+
+.score-container {
+    display: flex;
+    gap: 10px;
+}
+
+#send:hover {
+    background-color: antiquewhite;
+    opacity: 1;
+}

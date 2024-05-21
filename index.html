@@ -7,7 +7,44 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    
+
+    <div class="contenedor">
+        <div class="contadores">
+            <div class="contador-humano">
+                <div>Human</div>
+                <div class="score-container">
+                    <div>Score: </div>
+                    <div class="human-score"></div>
+                </div>
+            </div>
+            <div class="contador-maquina">
+                <div>Computer</div>
+                <div class="score-container">
+                    <div>Score: </div>
+                    <div class="computer-score"></div>
+                </div>
+            </div>
+            <div class="barra"></div>
+        </div>
+        <div id="result">Result</div>
+         <div class="choice">
+            <button id="rock">Rock</button>
+            <button id="paper">Paper</button>
+            <button id="scissors">Scissors</button>
+         </div>
+         <div class="decision">
+            <div>
+                <div>Decision human</div>
+                <div id="decision-humano">''</div>
+            </div>
+            <div>
+                <div>Decision computer</div>
+                <div id="decision-maquina">''</div>
+            </div>
+         </div>
+            <button id='send'>Enviar</button>
+    </div>
+
 </body>
 <script src="./js/js.js"></script>
 </html>
